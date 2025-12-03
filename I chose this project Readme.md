@@ -2,7 +2,7 @@ Why I Chose This Project
 
 In the AdTech world, account managers and analysts spend hours every week downloading CSV files, cleaning data, and manually building performance reports for clients. This process is slow, repetitive, and error-prone, even though the underlying data is already digital.
 
-I chose this project because we wanted to solve a real-world business pain point  automating the entire reporting workflow using data engineering and AI.
+I chose this project because I wanted to solve a real world business pain point  automating the entire reporting workflow using data engineering and AI.
 
 My goal was to create a system that can:
 
@@ -10,7 +10,7 @@ Ingest raw data from multiple sources (CSV, SQL, APIs),
 
 Process & Analyze it automatically to generate key insights, and
 
-Produce a ready to share, executive-level PDF/PPT report — complete with AI-generated summaries and charts all with zero manual work.
+Produce a ready to share, executive-level PDF/PPT report complete with AI-generated summaries and charts all with zero manual work.
 
 This project stands out because it:
 
