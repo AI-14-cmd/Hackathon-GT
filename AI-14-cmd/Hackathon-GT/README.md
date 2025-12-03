@@ -46,9 +46,7 @@ In the AdTech world, Account Managers spend countless hours:
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/AI-14-cmd/Hackathon-GT.git
-cd Hackathon-GT
+
 
 # Install dependencies
 pip install -r requirements.txt
@@ -111,10 +109,8 @@ See `data/sample_data.csv` for a complete example.
 
 InsightX can use AI to generate intelligent insights. Set one of these environment variables:
 
-**For OpenAI GPT-4o:**
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
+
+
 
 **For Google Gemini:**
 ```bash
@@ -244,4 +240,4 @@ This project is created for the GroundTruth Hackathon.
 
 ---
 
-**Questions?** Check the code comments in `main.py` for detailed documentation.
+
