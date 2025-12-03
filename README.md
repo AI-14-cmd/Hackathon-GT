@@ -352,9 +352,4 @@ This project is created for the GroundTruth Hackathon.
 
 ---
 
-**🎉 Ready to automate your advertising reports? Clone, install, and run!**on:** Check code comments in `main.py`
 
-
----
-
-**🎉 Ready to automate your advertising reports? Clone, install, and run!**
