@@ -1,4 +1,4 @@
-# 📈 InsightX - Automated Insight Engine
+# 📈 InsightX - Automated Insight Engine | H-001
 
 > **AI-powered advertising analytics that transforms raw data into executive-ready PDF reports — no manual work required.**
 
