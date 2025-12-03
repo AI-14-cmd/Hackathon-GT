@@ -1,0 +1,6 @@
+pandas
+matplotlib
+fpdf2
+openai
+google-generativeai
+python-dotenv

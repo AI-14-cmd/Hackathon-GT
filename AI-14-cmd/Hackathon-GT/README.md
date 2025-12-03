@@ -6,6 +6,24 @@ Built for the **GroundTruth Hackathon** to solve the challenge: *"Account Manage
 
 🔗 **GitHub Repository:** [https://github.com/AI-14-cmd/Hackathon-GT.git](https://github.com/AI-14-cmd/Hackathon-GT.git)
 
+## ⚡ **TL;DR - Quick Start**
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run CLI version (uses sample data)
+python main.py
+
+# 3. OR run web interface
+python server.py
+# Then open http://localhost:5000
+```
+
+**Output:** Professional PDF report with KPIs, charts, and AI insights in `output/` folder.
+
+---
+
 ## 🚀 **Project Status: ✅ FULLY FUNCTIONAL**
 
 **Latest Test Results:**
@@ -51,7 +69,7 @@ In the AdTech world, Account Managers spend countless hours:
 ✅ **Smart Visualization** - Generates clean, professional charts  
 ✅ **AI-Powered Insights** - Uses OpenAI GPT-4o or Google Gemini to write natural-language summaries  
 ✅ **PDF Report Generation** - Creates executive-ready reports with one click  
-✅ **Web Interface** - Simple Streamlit UI for non-technical users  
+✅ **Web Interface** - Modern HTML/CSS/JavaScript UI for non-technical users  
 ✅ **Zero Manual Work** - Complete end-to-end automation  
 
 ---
@@ -86,14 +104,14 @@ This will:
 
 ### Option 2: Run via Web Interface
 
-Launch the Streamlit app:
+Launch the Flask web server:
 
 ```bash
-streamlit run app.py
+python server.py
 ```
 
-Then:
-1. Upload your CSV file
+Then open your browser to `http://localhost:5000` and:
+1. Upload your CSV file or try the sample data
 2. Click "Generate Report"
 3. Download the PDF
 
@@ -165,16 +183,24 @@ GOOGLE_API_KEY=your-google-key-here
 ```
 Hackathon-GT/
 ├── main.py                 # Core automation script
-├── app.py                  # Streamlit web interface
+├── server.py               # Flask web server
+├── web_app.py              # Alternative Flask app
 ├── requirements.txt        # Python dependencies
 ├── test_gemini.py          # Gemini API testing script
 ├── .env                    # Environment variables (API keys)
 ├── GEMINI_API_NOTE.md      # Gemini API setup notes
+├── templates/              # HTML templates
+│   ├── index.html          # Main web interface
+│   └── result.html         # Results page
+├── static/                 # CSS and JavaScript
+│   ├── style.css           # Custom styles
+│   └── script.js           # Frontend logic
 ├── data/
 │   └── sample_data.csv     # Demo dataset (30 rows)
 ├── output/                 # Generated reports
 │   ├── chart.png           # Performance visualization
 │   └── Insight_Report.pdf  # Executive report
+├── uploads/                # Temporary file uploads
 └── README.md               # This file
 ```
 
@@ -199,7 +225,7 @@ The generated PDF includes:
 - **Visualization:** matplotlib
 - **PDF Generation:** FPDF
 - **AI Integration:** OpenAI API / Google Gemini API
-- **Web Interface:** Streamlit
+- **Web Interface:** Flask with HTML/CSS/JavaScript
 - **Environment:** python-dotenv
 
 ---
@@ -253,13 +279,13 @@ Expected output:
 [SUCCESS] Report Generated Successfully
 ```
 
-### Test Streamlit Interface
+### Test Web Interface
 
 ```bash
-streamlit run app.py
+python server.py
 ```
 
-Then open: `http://localhost:8501`
+Then open: `http://localhost:5000`
 
 ---
 
@@ -322,11 +348,16 @@ This project is created for the GroundTruth Hackathon.
 
 ---
 
----
-
 ## 📞 Support
 
 - 📖 **Documentation:** Check code comments in `main.py`
+- 🐛 **Issues:** Report on GitHub repository
+- 💡 **Features:** Submit enhancement requests
+- 📧 **Contact:** Via GitHub repository
+
+---
+
+**🎉 Ready to automate your advertising reports? Clone, install, and run!**on:** Check code comments in `main.py`
 - 🐛 **Issues:** Report on GitHub repository
 - 💡 **Features:** Submit enhancement requests
 - 📧 **Contact:** Via GitHub repository
