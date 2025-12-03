@@ -140,14 +140,11 @@ See `data/sample_data.csv` for a complete example.
 
 ---
 
-## 🤖 AI Integration (Optional)
+## 🤖 AI Integration 
 
 InsightX can use AI to generate intelligent insights. Set one of these environment variables:
 
-**For OpenAI GPT-4o:**
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
+
 
 **For Google Gemini:**
 ```bash
@@ -161,11 +158,9 @@ export GOOGLE_API_KEY="your-api-key-here"
 **Method 1: Environment Variables**
 ```bash
 # Windows
-set OPENAI_API_KEY=your-key-here
-set GOOGLE_API_KEY=your-key-here
+set GOOGLE_API_KEY=your-key-her
 
 # Linux/Mac
-export OPENAI_API_KEY="your-key-here"
 export GOOGLE_API_KEY="your-key-here"
 ```
 
